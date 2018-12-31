@@ -10,9 +10,9 @@ public class LeapYear {
     /** Evaluates whether the year is a leap year  */
     public static boolean isLeapYear(int year){
 	if (year % 400 == 0 || (year % 4 == 100 && year % 100 != 0)
-		return True
+		return true;
 	else
-		return False
+		return false;
     }
     private static void checkLeapYear(int year) {
         if (isLeapYear(year)) {
